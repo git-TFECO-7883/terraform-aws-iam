@@ -1,4 +1,4 @@
-data "aws_caller_identity" "this" {
+data2 "aws_caller_identity" "this" {
   count = var.get_caller_identity ? 1 : 0
 }
 
